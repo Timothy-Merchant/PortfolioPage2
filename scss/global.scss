@@ -1,23 +1,14 @@
-$lightest: #CCDAD1;
-$light: #9CAEA9;
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+// font-family: 'Josefin Sans', sans-serif;
+
+$lightest: #ccdad1;
+$light: #9caea9;
 $average: #788585;
-$heavy: #6F6866;
-$heaviest: #38302E;
+$heavy: #6f6866;
+$heaviest: #38302e;
 
 body {
-    font-family: "Helvetica", "Arial", sans-serif;
-    background-color: $average;   
-    margin: 0 auto;
-    max-width: 50em; 
-    line-height: 1.5;
-    padding: 4em 1em;
-}
-
-h2 {
-    margin-top: 1em;
-    padding-top: 1em;
-}
-
-h1, h2, strong {
-  color: $heaviest;
+    margin: 0;
+    box-sizing: border-box;
 }

@@ -1,0 +1,29 @@
+@import 'global.scss';
+
+.MainNav{
+    background-color: $lightest;
+    display: flex;    
+    justify-content: center;
+    width: 100vw;
+    height: 3rem;
+    position: fixed;
+    top: 0;
+}
+
+.MainNav__Link{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: $heaviest;
+    color: $lightest;
+    text-decoration: none;
+    width: 20vw;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainNav__Link:hover{    
+    background-color: $heavy;    
+    transition: 0.5s;
+}
