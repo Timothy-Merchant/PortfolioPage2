@@ -21,9 +21,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 1s;
 }
 
 .MainNav__Link:hover{    
-    background-color: $heavy;    
-    transition: 0.5s;
+    background-color: $heavy;
+    color: white;      
+    font-size: 1.7rem; 
 }

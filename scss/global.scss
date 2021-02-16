@@ -11,4 +11,7 @@ $heaviest: #38302e;
 body {
     margin: 0;
     box-sizing: border-box;
+    background-color: $average;
+    display: flex;
+    flex-direction: column;
 }

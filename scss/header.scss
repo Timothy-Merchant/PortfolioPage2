@@ -1,0 +1,26 @@
+@import "global.scss";
+
+.Header {
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: $heavy;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__Left {
+    width: 30vw;
+}
+
+.Header__Right {
+    width: 30vw;
+    object-fit: contain;
+}
+
+.Header__RightImage {
+    width: 300px;
+}
+
